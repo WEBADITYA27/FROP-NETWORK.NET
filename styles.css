@@ -1,0 +1,166 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 56px;
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+.nav-link {
+    color: #333 !important;
+}
+
+.jumbotron {
+    background: linear-gradient(135deg, #6f42c1 0%, #007bff 100%);
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+}
+
+.jumbotron .btn {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+}
+
+.jumbotron .btn:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+.container h2 {
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.card .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #666;
+    padding: 1rem 0;
+    border-top: 1px solid #e9ecef;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* styles.css */
+
+/* Kontak Form */
+#kontak {
+    padding: 50px 0;
+}
+
+#kontak h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#kontak form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#kontak form label {
+    font-weight: bold;
+}
+
+#kontak form input[type="text"],
+#kontak form input[type="email"],
+#kontak form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+#kontak form textarea {
+    resize: none;
+}
+
+#kontak form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#kontak form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Modal Kontak */
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
